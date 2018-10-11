@@ -21,5 +21,18 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+		<groupId>net.dv8tion</groupId>
+		<artifactId>JDA</artifactId>
+		<version>3.8.0_436</version>
+	</dependency>
   </dependencies>
+  
+  <repositories>
+	<repository>
+		<id>jcenter</id>
+		<name>jcenter-bintray</name>
+		<url>http://jcenter.bintray.com</url>
+	</repository>
+  </repositories>
 </project>
